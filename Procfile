@@ -1,1 +1,1 @@
-web: gunicorn monthly_challenges.wsgi --chdir monthly_challenges
+web: gunicorn monthly_challenges.monthly_challenges.wsgi
