@@ -1,0 +1,6 @@
+[tool.djlint]
+profile = "django"                   # capisce la sintassi Django
+preserve_blank_lines = true          # non rimuove le righe vuote dove possibile
+blank_line_after_tag = "extends"     # aggiunge 1 riga dopo {% extends ... %}
+indent = 2                           # opzionale: indentazione a 2 spazi
+max_blank_lines = 1                  # evita più di 1 riga vuota di fila
