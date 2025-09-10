@@ -28,16 +28,19 @@ At the moment the project is focused on **routing, templates, and static files**
 
 ## 🌐 Live Site
 
-*(Not deployed yet — runs locally with Django’s development server.)*
+🚀 Live here: [Django Udemy First Project on Heroku](https://django-udemy-firstproject-d6e6b59191bb.herokuapp.com/)
 
 ---
 
 ## 🛠️ Technologies Used
 
 - [Django 5.2.6](https://www.djangoproject.com/) (Python web framework)
-- Python 3.12
+- Python 3.13
+- Gunicorn (WSGI server for production)
+- WhiteNoise (serving static files in production)
 - HTML5 & CSS3 (custom styles)
 - Visual Studio Code (development environment)
+- Heroku (deployment platform)
 
 ---
 
@@ -49,5 +52,6 @@ At the moment the project is focused on **routing, templates, and static files**
 - Using templates with context data
 - Adding static files (CSS) and linking them in templates
 - Configuring `.gitignore` to keep the repo clean
+- Deploying a Django app on Heroku with Gunicorn and WhiteNoise
 
 ---
